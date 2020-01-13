@@ -1,0 +1,48 @@
+.progress {
+	overflow: hidden;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	width: 350px;
+	height: 34px;
+	background: #d3d5d9;
+	border-radius: 17px;
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.8), 0 2px 4px
+		rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 6px #b6babe,
+		0 7px rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.8), 0 2px 4px
+		rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 6px #b6babe,
+		0 7px rgba(255, 255, 255, 0.1);
+}
+
+.progress-val {
+	float: right;
+	margin-left: 15px;
+	font: bold 15px/34px Helvetica, Arial, sans-serif;
+	color: blue;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.progress-barr {
+	display: block;
+	overflow: hidden;
+	height: 8px;
+	margin: 13px 10px;
+	background: #b8b8b8;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px
+		rgba(255, 255, 255, 0.6);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px
+		rgba(255, 255, 255, 0.6);
+}
+
+.progress-in {
+	display: block;
+	min-width: 8px;
+	height: 8px;
+	background: #FFA500;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px
+		rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px
+		rgba(0, 0, 0, 0.2);
+}

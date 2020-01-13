@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+.container1 {
+	border: 2px solid #ccc;
+	width: 300px;
+	height: 50px;
+	overflow-y: scroll;
+}
+
+ $(".chosen-select").chosen({
+  no_results_text: "Oops, nothing found!"
+  })
+  
+  
+  
+  .github.ribbon {
+	position: fixed;
+	display: block;
+	top: 40px;
+	right: 0;
+	border: 0;
+	z-index: 1001;
+}
+
+.prettyprint {
+	padding: 10px!important;
+}
+
+#wrap {
+	padding-top: 70px;
+}
+
+#home h1 {
+	margin-bottom: 30px;
+}
+#demo,
+#examples,
+#support,
+#download {
+	padding-top: 40px;
+}
+  
